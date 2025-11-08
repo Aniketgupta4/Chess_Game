@@ -61,12 +61,10 @@ It’s perfect for practicing **WebSockets, real-time multiplayer logic, and fro
    - Player 2 joins the room via a room code  
 
 3. **Game Play**  
-   - Players make moves on the board  
    - Moves are validated using Chess API or chess.js  
    - Valid moves emitted via Socket.IO to the other player in real-time  
 
 4. **Game State**  
-   - Move history tracked  
    - Detect checkmate, stalemate, or draw  
    - Option to reset or start a new game  
 
